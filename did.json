@@ -20,5 +20,12 @@
     "did:web:hectorsector.github.io:dw#049bde5ba50681813c1c79b787e43ac3aa47d779749d90323350aca34a9631f281627bc46d0143d2432aae44f92bb15dbeddd77e4dab21a9cfbad663bae6acb7c3"
   ],
   "keyAgreement": [],
-  "service": []
+  "service": [
+    {
+      "id": "did:web:hectorsector.github.io:dw#messaging-local",
+      "type": "DIDCommMessaging",
+      "serviceEndpoint": "http://localhost:33332/messaging",
+      "description": null
+    }
+  ]
 }
